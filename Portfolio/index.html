@@ -1,0 +1,159 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JSDesign Portfolio</title>
+</head>
+<body>
+  <div id="slider" class="up">
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <nav>
+    <h2 class="jsdesign">
+      <a href="#main"><span>My</span>Portfolio</a>
+    </h2>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="x">X</div>
+    <ul>
+      <li class="projectslink"><a href="#projects">Projects</a></li>
+      <li class="resumelink"><a href="#resume">Resume</a></li>
+      <li class="aboutlink"><a href="#about">About</a></li>
+      <li class="contactlink"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidenav">
+    <ul>
+      <a href="#main"><li class="bubble active-bubble" id="1"></li></a>
+      <a href="#projects"><li class="bubble" id="2"></li></a>
+      <a href="#resume"><li class="bubble" id="3"></li></a>
+      <a href="#about"><li class="bubble" id="4"></li></a>
+      <a href="#contact"><li class="bubble" id="5"></li></a>
+    </ul>
+  </div>
+
+  <div class="container">
+    <section class="main" id="main">
+      <div class="title" style="transition: transform 2s, opacity 2s ease-in; transform: translateY(0px); opacity: 1;">
+        <div class="name" style="opacity: 1;">Lasha Abramishvili</div>
+        <div class="disc">
+          Junior Full-Stack Developer
+        </div>
+      </div>
+
+      <a href="#projects" class="arrow-a"><img src="icons/yellow-arrow.png" class="arrow" alt="arrow pointing down"></a>
+
+      <div class="contactlinks">
+        <a href="https://www.linkedin.com/in/jack-stevens-889121b1"><div class="linkedin" style="transition: opacity 2s ease-in, background 0.25s ease-out; opacity: 1;"></div></a>
+        <a href="https://github.com/Jakalanern"><div class="github" style="transition: opacity 2s ease-in, background 0.25s ease-out; opacity: 1;"></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <p>Some of my work <span>:</span></p>
+      <div class="project-box">
+        <!-- Project 1: Time Capsule -->
+        <div class="project-row">
+          <div class="project-img">
+            <a href="https://time-capsule-lasha-abramishvili.netlify.app/" target="_blank">
+              <img src="projects/TimeCapsule.png" alt="Time Capsule">
+            </a>
+          </div>
+          <div class="project-text">
+            <h3>Time Capsule</h3>
+            <p>A web app that brings history to life — discover major events that happened today, search custom dates, and save your favorite moments to revisit anytime.</p>
+          </div>
+        </div>
+    
+        <!-- Project 2: Guess Game -->
+        <div class="project-row reverse">
+          <div class="project-text">
+            <h3>Guess Game</h3>
+            <p>A simple and fun Wordle-style word guessing game built with HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="project-img">
+            <a href="https://guess-game-lasha-abramishvili.netlify.app/" target="_blank">
+              <img src="projects/GuessGame.png" alt="Guess Game">
+            </a>
+          </div>
+        </div>
+    
+        <!-- Project 3: Simon Game -->
+        <div class="project-row">
+          <div class="project-img">
+            <a href="https://simon-game-lasha-abramishvili.netlify.app/" target="_blank">
+              <img src="projects/SimonGame.png" alt="Simon Game">
+            </a>
+          </div>
+          <div class="project-text">
+            <h3>Simon Game</h3>
+            <p>A simple Simon Says memory game built with HTML, CSS, and JavaScript. Click the buttons in the order shown. Each level adds a new button to the sequence.</p>
+          </div>
+        </div>
+    
+        <!-- Project 4: Drum Kit Game -->
+        <div class="project-row reverse">
+          <div class="project-text">
+            <h3>Drum Kit</h3>
+            <p>A simple interactive Drum Kit web app built with HTML, CSS, and JavaScript. Play drum sounds using mouse clicks or keyboard keys.</p>
+          </div>
+          <div class="project-img">
+            <a href="https://drum-kit-lasha-abramishvili.netlify.app/" target="_blank">
+              <img src="projects/DrumKit.png" alt="Drum Kit">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume" id="resume">
+      <a class="resume-btn" href="assets/Lasha's_CV.pdf">Resumé</a>
+    </section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <h1 class="about-h1">About Me</h1>
+        <p class="p1">Hello There! My name is Lasha.</p>
+        <p class="p2">
+          I am a <span class="designer">Junior Full-Stack Developer.</span>
+          <br>
+        </p>
+        <p class="p3">
+          My current focus is on Full Stack Development, driven by a strong passion for both front-end design and back-end logic. 
+          I enjoy creating seamless user experiences as much as building the robust architecture behind them.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-box">
+        <p class="email">
+          abramishvililasha05@gmail.com
+        </p>
+        <p class="phone">
+          <span>(</span>+995<span>)</span> 591 <span>-</span> 104 <span>-</span> 147
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/lasha-abramishvili-69a532307/">LinkedIn</a>
+          <span>|</span> <a href="https://github.com/Lasha-Abrama">GitHub</a>
+        </p>
+      </div>
+      <a href="#main" class="scrollbtn"><button>Scroll To Top</button></a>
+    </section>
+  </div>
+  <script src="js/script.js"></script>
+
+
+</body></html>
